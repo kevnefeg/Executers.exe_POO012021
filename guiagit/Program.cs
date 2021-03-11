@@ -13,11 +13,11 @@ namespace guiagit
             Console.WriteLine("Enter a value for b: ");
             b = Int32.Parse(Console.ReadLine());
 
-            Console.WriteLine($"subtracting {a} - {b} equals {subtractingnumbers(a,b)}");
+            Console.WriteLine($"Multiplying  {a} * {b} equals {Multiplyingnumbers(a,b)}");
         }
-        static int subtractingnumbers(int a, int b)
+        static int Multiplyingnumbers(int a, int b)
         {
-            return a-b;
+            return a*b;
         }
     }
 }
