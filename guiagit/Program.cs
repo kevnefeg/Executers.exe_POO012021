@@ -13,11 +13,11 @@ namespace guiagit
             Console.WriteLine("Enter a value for b: ");
             b = Int32.Parse(Console.ReadLine());
 
-            Console.WriteLine($"Adding {a} + {b} equals {Addnumbers(a,b)}");
+            Console.WriteLine($"subtracting {a} - {b} equals {subtractingnumbers(a,b)}");
         }
-        static int Addnumbers(int a, int b)
+        static int subtractingnumbers(int a, int b)
         {
-            return a+b;
+            return a-b;
         }
     }
 }
